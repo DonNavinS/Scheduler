@@ -37,7 +37,7 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   width: 100%;
-  border-top: 1px solid white;
+  border-top: 3px solid white;
 }
 
 .row {
@@ -47,24 +47,22 @@ textarea{
 
 
 .hour {
-  border: 2px orange solid;
-
+text-align: center;
 }
 
 .reminder {
   width: 60%;
+  border: none;
 }
 .setSchedule {
   height: 80px;
   width: 870px;
   background-color:rgb(247, 73, 247);
-  size: inherit;
 }
 
 .button {
   background: chartreuse;
   justify-content: center;
-  border: red 2px solid;
   padding-top: 1rem;
 }
 
@@ -98,3 +96,7 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.display9 {
+  background-color: rgb(247, 73, 247);
+color: grey;
+}
