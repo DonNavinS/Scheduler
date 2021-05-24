@@ -1,0 +1,146 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column ;
+  white-space: pre-wrap;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid white;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 15% 75% 10%;
+}
+
+
+.hour {
+text-align: center;
+}
+
+
+
+.button {
+  background: rgb(152, 255, 48);
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+  height: 80px;
+  width: 870px;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+  height: 80px;
+  width: 870px;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+  height: 80px;
+  width: 870px;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.display9 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display10 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display11 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display12 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display1 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display2 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display3 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display4 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+.display5 {
+  background-color: rgb(247, 73, 247);
+color: rgb(78, 78, 78);
+}
+
+
+.delete-div {
+  align-self: center;
+  padding-bottom: 30px;
+}
